@@ -4,7 +4,7 @@ using namespace std;
 struct node{
     int first;int second;
 };
-bool operator < (node a, node b){
+bool operator < (pair<int, int> a, pair<int, int> b){
     return a.first > b.second;
 }
 int main(){
