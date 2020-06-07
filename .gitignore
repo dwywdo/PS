@@ -2,3 +2,4 @@
 # Visual Studio Code C/C++
 *.dSYM
 *.out
+*.DS_Store
